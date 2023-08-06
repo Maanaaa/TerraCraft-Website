@@ -34,7 +34,7 @@ body {
         transform: scale(1);
     }
     50% {
-        transform: scale(1.05); /* Scale the logo up to 1.05x at 50% of the animation duration */
+        transform: scale(1.05); 
     }
     100% {
         transform: scale(1);
@@ -91,10 +91,16 @@ body {
 
     .logo-container img {
         width: 90%; 
-        max-width: 630px;
+        max-width: 800px;
     }
 
     .text-container {
         font-size: 20px;
     }
+}
+
+
+a{
+    text-decoration: none;
+    color: #614444;
 }
